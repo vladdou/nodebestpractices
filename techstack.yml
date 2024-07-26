@@ -1,0 +1,145 @@
+repo_name: vladdou/nodebestpractices
+report_id: 8dab74643007b800528f2d1745162bf7
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:33:03+00:00'
+requested_by: goldbergyoni
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/vladdou/nodebestpractices
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-12-12 10:13:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-11-30 16:06:23.000000000 Z
+- name: Imagemin
+  website_url: https://github.com/imagemin/imagemin
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3378/7868808.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-12-07 15:54:19.000000000 Z
+- name: Showdown
+  description: JavaScript port of Markdown
+  website_url: https://github.com/coreyti/showdown
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-11-30 16:06:23.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-11-30 16:06:23.000000000 Z
+- name: graceful-fs
+  description: A drop-in replacement for fs, making various improvements
+  package_url: https://www.npmjs.com/graceful-fs
+  version: 4.1.15
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-11-30 16:06:23.000000000 Z
+- name: imagemin
+  description: Minify images seamlessly
+  package_url: https://www.npmjs.com/imagemin
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17228/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-12-07 15:54:19.000000000 Z
+- name: imagemin-pngquant
+  description: Imagemin plugin for `pngquant`
+  package_url: https://www.npmjs.com/imagemin-pngquant
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17166/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/vladdou/nodebestpractices/blob/master/.operations/package.json
+  detection_source: ".operations/package.json"
+  last_updated_by: Joe Reeve
+  last_updated_on: 2018-12-07 15:54:19.000000000 Z
